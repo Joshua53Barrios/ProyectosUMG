@@ -1,0 +1,5 @@
+19219     Joshua      Barrios      19     Guatemala     1241-9401     4513-0984      120.0       Diario      Cheque      Masculino
+1119     Velvet      Samayoa      19     Guatemala     4242-0894     5323-9942      125.0       Finde      Cheque      Femenino
+1219     Ricardo      Miranda      19     Guatemala     9024-2942     1341-0841      129.0       Diario      Cheque      Masculino
+13020     Jimena      Castillo      20     Izabal     1341-9023     0990-9023      150.0       Diario      Tarjeta      Femenino
+12213      Joshua      Barrios        13        sdfsdf        21332        12121        12.0      Finde    Efectivo    Femenino
