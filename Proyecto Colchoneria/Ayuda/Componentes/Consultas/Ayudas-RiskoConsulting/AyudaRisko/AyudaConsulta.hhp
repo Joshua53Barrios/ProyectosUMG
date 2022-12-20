@@ -1,0 +1,20 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=AyudaConsulta.chm
+Contents file=AyudaConsultasInteligentes.hhc
+Default Window=AyudaConsultaInteligente
+Display compile progress=No
+Language=0x580a Español (Latinoamérica)
+
+[WINDOWS]
+AyudaConsultaInteligente="Ayuda Consulta Inteligente Avanzada","AyudaConsultasInteligentes.hhc",,"MDI.html","MDI.html","Cliente.html","Cliente.html","Vehiculo.html","Vehiculo.html",0x23520,,0xc387e,,,,,,,,0
+
+
+[FILES]
+Cliente.html
+MDI.html
+Vehiculo.html
+Venta.html
+
+[INFOTYPES]
+

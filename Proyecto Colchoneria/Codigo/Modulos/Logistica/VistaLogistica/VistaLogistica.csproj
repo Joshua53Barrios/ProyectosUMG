@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B4A1D51F-0CFF-4E19-8480-8C2CE473ACB5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VistaLogistica</RootNamespace>
+    <AssemblyName>VistaLogistica</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Capa_controlador">
+      <HintPath>..\..\..\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll</HintPath>
+    </Reference>
+    <Reference Include="ControladorLogistica">
+      <HintPath>..\ControladorLogistica\bin\Debug\ControladorLogistica.dll</HintPath>
+    </Reference>
+    <Reference Include="NavegadorVista">
+      <HintPath>..\..\..\Componentes\Navegador\Vista\bin\Debug\NavegadorVista.dll</HintPath>
+    </Reference>
+    <Reference Include="Seguridad_Controlador">
+      <HintPath>..\..\..\Componentes\Seguridad\Colchoneria\Capa_controlador\bin\Debug\Seguridad_Controlador.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bodega.Designer.cs">
+      <DependentUpon>Bodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conductor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conductor.Designer.cs">
+      <DependentUpon>Conductor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Envio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Envio.Designer.cs">
+      <DependentUpon>Envio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExistenciaBodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExistenciaBodega.Designer.cs">
+      <DependentUpon>ExistenciaBodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario.Designer.cs">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Linea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Linea.Designer.cs">
+      <DependentUpon>Linea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lote.Designer.cs">
+      <DependentUpon>Lote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marca.Designer.cs">
+      <DependentUpon>Marca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Movimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movimientos.Designer.cs">
+      <DependentUpon>Movimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Producto.Designer.cs">
+      <DependentUpon>Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="prueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prueba.Designer.cs">
+      <DependentUpon>prueba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ruta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ruta.Designer.cs">
+      <DependentUpon>Ruta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TipoTransporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TipoTransporte.Designer.cs">
+      <DependentUpon>TipoTransporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transporte.Designer.cs">
+      <DependentUpon>Transporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Traslados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Traslados.Designer.cs">
+      <DependentUpon>Traslados.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bodega.resx">
+      <DependentUpon>Bodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conductor.resx">
+      <DependentUpon>Conductor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Envio.resx">
+      <DependentUpon>Envio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExistenciaBodega.resx">
+      <DependentUpon>ExistenciaBodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario.resx">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Linea.resx">
+      <DependentUpon>Linea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lote.resx">
+      <DependentUpon>Lote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marca.resx">
+      <DependentUpon>Marca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movimientos.resx">
+      <DependentUpon>Movimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Producto.resx">
+      <DependentUpon>Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prueba.resx">
+      <DependentUpon>prueba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ruta.resx">
+      <DependentUpon>Ruta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TipoTransporte.resx">
+      <DependentUpon>TipoTransporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transporte.resx">
+      <DependentUpon>Transporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Traslados.resx">
+      <DependentUpon>Traslados.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
